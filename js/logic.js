@@ -12,7 +12,7 @@ form.addEventListener('submit', (e) => {
 
   localStorage.setItem('lead', convertData)
 
-  let content = document.getElementById('content')
+  let content = document.getElementById('register')
 
   let carregando = `<p>Loading...</p>`
   let pronto = `<p>Sent!</p>`
